@@ -19,6 +19,7 @@
 		955676462359B25F00C6F483 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955676452359B25F00C6F483 /* PageViewController.swift */; };
 		955676482359B53300C6F483 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955676472359B53300C6F483 /* PageView.swift */; };
 		9556764A2359F47700C6F483 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955676492359F47700C6F483 /* PageControl.swift */; };
+		9556764C2359FCD600C6F483 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9556764B2359FCD600C6F483 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		955676452359B25F00C6F483 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		955676472359B53300C6F483 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		955676492359F47700C6F483 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		9556764B2359FCD600C6F483 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				955676452359B25F00C6F483 /* PageViewController.swift */,
 				955676472359B53300C6F483 /* PageView.swift */,
 				955676492359F47700C6F483 /* PageControl.swift */,
+				9556764B2359FCD600C6F483 /* LoginView.swift */,
 				955676312359AB3900C6F483 /* Assets.xcassets */,
 				955676362359AB3900C6F483 /* LaunchScreen.storyboard */,
 				955676392359AB3900C6F483 /* Info.plist */,
@@ -168,6 +171,7 @@
 				955676442359AFF000C6F483 /* OnboardingCardView.swift in Sources */,
 				955676422359AF5000C6F483 /* OnboardingCard.swift in Sources */,
 				9556764A2359F47700C6F483 /* PageControl.swift in Sources */,
+				9556764C2359FCD600C6F483 /* LoginView.swift in Sources */,
 				9556762C2359AB3700C6F483 /* AppDelegate.swift in Sources */,
 				955676462359B25F00C6F483 /* PageViewController.swift in Sources */,
 				9556762E2359AB3700C6F483 /* SceneDelegate.swift in Sources */,

@@ -17,8 +17,17 @@ var cards: [OnboardingCard] = [
 
 
 struct ContentView: View {
+    
+    @State var isOnboardingDone = false
+    
     var body: some View {
-        PageView(cards.map { OnboardingCardView(card: $0) })
+        Group {
+            if isOnboardingDone {
+                LoginView()
+            } else {
+                PageView(cards.map { OnboardingCardView(card: $0) }, isOnboaringDone: $isOnboardingDone)
+            }
+        }
     }
 }
 
