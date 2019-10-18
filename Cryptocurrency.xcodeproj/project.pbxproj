@@ -13,6 +13,7 @@
 		955676322359AB3900C6F483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955676312359AB3900C6F483 /* Assets.xcassets */; };
 		955676352359AB3900C6F483 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955676342359AB3900C6F483 /* Preview Assets.xcassets */; };
 		955676382359AB3900C6F483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955676362359AB3900C6F483 /* LaunchScreen.storyboard */; };
+		955676402359AB6B00C6F483 /* ToDo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9556763F2359AB6B00C6F483 /* ToDo.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		955676342359AB3900C6F483 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		955676372359AB3900C6F483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		955676392359AB3900C6F483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9556763F2359AB6B00C6F483 /* ToDo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ToDo.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				955676362359AB3900C6F483 /* LaunchScreen.storyboard */,
 				955676392359AB3900C6F483 /* Info.plist */,
 				955676332359AB3900C6F483 /* Preview Content */,
+				9556763F2359AB6B00C6F483 /* ToDo.txt */,
 			);
 			path = Cryptocurrency;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955676402359AB6B00C6F483 /* ToDo.txt in Resources */,
 				955676382359AB3900C6F483 /* LaunchScreen.storyboard in Resources */,
 				955676352359AB3900C6F483 /* Preview Assets.xcassets in Resources */,
 				955676322359AB3900C6F483 /* Assets.xcassets in Resources */,

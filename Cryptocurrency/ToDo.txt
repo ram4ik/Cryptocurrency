@@ -1,0 +1,7 @@
+Building a Cryptocurrency App Inboarding Screen
+
+1. Implement UIPageViewController in Swift UI using UIViewControllerRepresentable
+2. Implement PageControl in Swift Ui using UIViewRepresentable
+3. Implement a generic initializer for a Swift Ui view
+4. How to define and pass bindings to other views
+5. Using Stacks to create a beautiful layout
