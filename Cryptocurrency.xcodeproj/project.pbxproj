@@ -14,6 +14,7 @@
 		955676352359AB3900C6F483 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955676342359AB3900C6F483 /* Preview Assets.xcassets */; };
 		955676382359AB3900C6F483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955676362359AB3900C6F483 /* LaunchScreen.storyboard */; };
 		955676402359AB6B00C6F483 /* ToDo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9556763F2359AB6B00C6F483 /* ToDo.txt */; };
+		955676422359AF5000C6F483 /* OnboardingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955676412359AF5000C6F483 /* OnboardingCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		955676372359AB3900C6F483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		955676392359AB3900C6F483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9556763F2359AB6B00C6F483 /* ToDo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ToDo.txt; sourceTree = "<group>"; };
+		955676412359AF5000C6F483 /* OnboardingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +60,15 @@
 		9556762A2359AB3700C6F483 /* Cryptocurrency */ = {
 			isa = PBXGroup;
 			children = (
+				9556763F2359AB6B00C6F483 /* ToDo.txt */,
 				9556762B2359AB3700C6F483 /* AppDelegate.swift */,
 				9556762D2359AB3700C6F483 /* SceneDelegate.swift */,
 				9556762F2359AB3700C6F483 /* ContentView.swift */,
+				955676412359AF5000C6F483 /* OnboardingCard.swift */,
 				955676312359AB3900C6F483 /* Assets.xcassets */,
 				955676362359AB3900C6F483 /* LaunchScreen.storyboard */,
 				955676392359AB3900C6F483 /* Info.plist */,
 				955676332359AB3900C6F483 /* Preview Content */,
-				9556763F2359AB6B00C6F483 /* ToDo.txt */,
 			);
 			path = Cryptocurrency;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955676422359AF5000C6F483 /* OnboardingCard.swift in Sources */,
 				9556762C2359AB3700C6F483 /* AppDelegate.swift in Sources */,
 				9556762E2359AB3700C6F483 /* SceneDelegate.swift in Sources */,
 				955676302359AB3700C6F483 /* ContentView.swift in Sources */,

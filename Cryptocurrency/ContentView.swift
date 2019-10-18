@@ -8,6 +8,14 @@
 
 import SwiftUI
 
+var cards: [OnboardingCard] = [
+    OnboardingCard(image: "keep", title: "Keep", discription: "Accept cryptocurrency, keep them here or sell them to others"),
+    OnboardingCard(image: "buy&sell", title: "Buy & Sell", discription: "Buy and sell cryptocurrency directly from the app"),
+    OnboardingCard(image: "exchange", title: "Exchange", discription: "Echange your crypto to other digital assets or real money")
+
+]
+
+
 struct ContentView: View {
     var body: some View {
         Text("Hello World")
