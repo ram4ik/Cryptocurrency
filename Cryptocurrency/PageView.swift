@@ -21,7 +21,7 @@ struct PageView<Page: View>: View {
     var body: some View {
         VStack {
             PageViewController(controllers: viewControllers, currentPage: $currentPage)
-            Text("\(currentPage)")
+            PageControl(numberOfPages: viewControllers.count, currentPage: $currentPage)
         }
     }
 }
